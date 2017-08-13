@@ -1,26 +1,50 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bitmaker Photo Gallery</title>
-  </head>
+* {
+  margin: 0;
+}
 
-  <body>
-<h1>Bitmaker Photo Gallery</h1>
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li>Add a photo</li>
-      <li>About</li>
-    </ul>
-  </nav>
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
 
-  <p>There are 6 photos</p>
-  <img src="https://www.fillmurray.com/200/300">
-  <img src="https://www.fillmurray.com/200/300">
-  <img src="https://www.fillmurray.com/200/300">
-  <img src="https://www.fillmurray.com/200/300">
-  <img src="https://www.fillmurray.com/200/300">
-  <img src="https://www.fillmurray.com/200/300">
-  </body>
-</html>
+.nav-container {
+  /*navigation styling*/
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+  background-color: lightpink;
+  margin: 50px 10px;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+}
+
+.description {
+  background-color: orange;
+  padding: 5px;
+  margin: 5%;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image {
+  margin: 5px;
+  display: inline-block;
+}
+
+.tool-bar {
+  display: block;
+}
